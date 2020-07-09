@@ -190,10 +190,9 @@ add_executable(${PROJECT_NAME}
 target_link_libraries(${PROJECT_NAME}
   stdc++
   pthread
-  stdc++
 
   SDL2
-  vita2d
+  SceAppMgr_stub
   SceDisplay_stub
   SceCtrl_stub
   SceAudio_stub
@@ -202,6 +201,7 @@ target_link_libraries(${PROJECT_NAME}
   SceCommonDialog_stub
   SceTouch_stub
   SceHid_stub
+  vita2d
   m
   z
   turbojpeg
